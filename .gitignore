@@ -1,0 +1,4 @@
+.DS_Store
+
+# Cloned repos live in agent workspaces - agents clone these locally, don't track
+agents/*/workspace/wolf-*
