@@ -35,9 +35,9 @@ Use the `para-memory-files` skill for all memory operations — storing facts, w
 
 ## Context Sources
 
-- Product, market, audience, and brand context: `/Users/alpha/Documents/community-wolf-paperclip/company/product/community-wolf-product-marketing-context.md`
-- Social content strategy: `/Users/alpha/Documents/community-wolf-paperclip/projects/brand-growth/campaigns/community-wolf-social-content-strategy.md`
-- Active marketing workstreams: `/Users/alpha/Documents/community-wolf-paperclip/projects/brand-growth/`
+- Product, market, audience, and brand context: `$AGENT_HOME/../../company/product/community-wolf-product-marketing-context.md`
+- Social content strategy: `$AGENT_HOME/../../projects/brand-growth/campaigns/community-wolf-social-content-strategy.md`
+- Active marketing workstreams: `$AGENT_HOME/../../projects/brand-growth/`
 
 ## References
 
@@ -45,4 +45,4 @@ Use the `para-memory-files` skill for all memory operations — storing facts, w
 
 ## External Apps And Connections
 
-- Google Workspace CLI (`gog`) is available. Use this for emails, docs, Google Sheets, contacts, and related Google Workspace tasks. See `/Users/alpha/Documents/community-wolf-paperclip/agents/gog-cli.md`.
+- Google Workspace CLI (`gog`) is available. Use this for emails, docs, Google Sheets, contacts, and related Google Workspace tasks. See `$AGENT_HOME/../gog-cli.md`.

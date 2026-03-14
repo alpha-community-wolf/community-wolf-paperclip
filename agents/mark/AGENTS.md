@@ -46,4 +46,4 @@ Use the `para-memory-files` skill for all memory operations — storing facts, w
 
 ## External Apps And Connections
 
-- Google Workspace CLI (`gog`) is available. See `/Users/alpha/Documents/community-wolf-paperclip/agents/gog-cli.md`.
+- Google Workspace CLI (`gog`) is available. See `$AGENT_HOME/../gog-cli.md`.

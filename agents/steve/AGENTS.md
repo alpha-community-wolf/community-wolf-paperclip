@@ -36,9 +36,9 @@ Use the `para-memory-files` skill for all memory operations — storing facts, w
 
 ## Context Sources
 
-- Product, market, audience, and brand context: `/Users/alpha/Documents/community-wolf-paperclip/company/product/community-wolf-product-marketing-context.md`
-- Founder social strategy for Michael: `/Users/alpha/Documents/community-wolf-paperclip/company/founders/michael-houghton-personal-social-strategy.md`
-- Active founder-social and marketing workstreams: `/Users/alpha/Documents/community-wolf-paperclip/projects/brand-growth/`
+- Product, market, audience, and brand context: `$AGENT_HOME/../../company/product/community-wolf-product-marketing-context.md`
+- Founder social strategy for Michael: `$AGENT_HOME/../../company/founders/michael-houghton-personal-social-strategy.md`
+- Active founder-social and marketing workstreams: `$AGENT_HOME/../../projects/brand-growth/`
 
 ## References
 
@@ -46,4 +46,4 @@ Use the `para-memory-files` skill for all memory operations — storing facts, w
 
 ## External Apps And Connections
 
-- Google Workspace CLI (`gog`) is available. See `/Users/alpha/Documents/community-wolf-paperclip/agents/gog-cli.md`.
+- Google Workspace CLI (`gog`) is available. See `$AGENT_HOME/../gog-cli.md`.
