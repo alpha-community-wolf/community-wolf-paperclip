@@ -1,0 +1,26 @@
+---
+description: Convention for the .developer/ folder structure
+globs: .developer/**
+alwaysApply: false
+---
+
+# Developer Notes Convention
+
+The `.developer/` folder holds internal planning and coordination notes. It is committed to the repo.
+
+## Structure
+
+```
+.developer/
+  todo.md              # Active task tracking and backlog
+  merges/
+    YYYY-MM-DD.md      # Merge notes: open PRs, conflict guidance, merge order
+  paperclip-pr-backlog.md  # PR backlog for the Paperclip fork
+  flowclip.md          # Product/feature flow notes
+```
+
+## Rules
+
+- `todo.md` tracks what's in progress, what's next, and what's done. Keep it current.
+- `merges/` files are dated. Create a new file per merge session with PR links, recommended merge order, and conflict notes.
+- Do not put secrets, credentials, or user-specific paths in `.developer/`.
